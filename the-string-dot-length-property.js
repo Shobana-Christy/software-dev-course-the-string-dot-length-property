@@ -20,11 +20,30 @@ let stringTwo = "JavaScript";
 let stringThree = "";
 
 // Your task: Assign the length of each string to the corresponding variable
-let lengthOne;   // Length of stringOne
-let lengthTwo;   // Length of stringTwo
-let lengthThree; // Length of stringThree
+let lengthOne = stringOne.length; 
+console.log(lengthOne);  // Length of stringOne
+let lengthTwo = stringTwo.length; 
+console.log(lengthTwo);// Length of stringTwo
+let lengthThree = stringThree.length;
+console.log(lengthThree);// Length of stringThree
+
 
 // Your code here
+// let lastIndex = stringOne.length - 1;
+// if("p" === stringOne[lastIndex]){
+if(lengthOne === 15){
+ console.log("The length variable contains the correct value. ");
+} else {
+  console.log("The value is incorrect");
+}
 
+// if ("t" === stringTwo[stringTwo.length -1]){
+if (lengthTwo === 10){
+  console.log("The length variable contains the correct value. ");
+} else {
+  console.log("The value is incorrect");
+}
 
-
+if(lengthThree == 0){
+ console.log("The value is empty");
+}
